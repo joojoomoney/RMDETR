@@ -1,0 +1,9 @@
+model,backbone,input_size,flops_g,params_m,latency_ms,precision,mask_ap,box_ap,environment
+RM-DETR-R18,ResNet-18,640,37.1,22.1,13.8,FP32,39.3,,PyTorch TITAN RTX batch=1
+RM-DETR-R34,ResNet-34,640,53.2,33.4,17.4,FP32,41.1,,PyTorch TITAN RTX batch=1
+RM-DETR-R50,ResNet-50,640,74.1,42.8,26.1,FP32,44.4,,PyTorch TITAN RTX batch=1
+RM-DETR-R101,ResNet-101,640,153.3,87.3,39.2,FP32,45.4,,PyTorch TITAN RTX batch=1
+RM-DETR-S,HGNetv2-S,640,21.6,12.3,2.8,FP16,38.1,45.8,TensorRT TITAN RTX batch=1
+RM-DETR-M,HGNetv2-M,640,40.6,22.2,3.9,FP16,42.0,50.4,TensorRT TITAN RTX batch=1
+RM-DETR-L,HGNetv2-L,640,77.0,45.0,5.3,FP16,43.9,52.6,TensorRT TITAN RTX batch=1
+RM-DETR-X,HGNetv2-X,640,94.0,55.0,7.0,FP16,44.9,53.8,TensorRT TITAN RTX batch=1

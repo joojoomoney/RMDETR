@@ -1,0 +1,17 @@
+sync_bn: True
+find_unused_parameters: False
+
+
+use_amp: True #FP16 False = FP32, True = FP16
+
+scaler:
+  type: GradScaler
+  enabled: True
+
+
+use_ema: False
+ema:
+  type: ModelEMA
+  decay: 0.9999
+  warmups: 2000
+

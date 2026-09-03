@@ -1,0 +1,28 @@
+{
+  "config_file": "configs/realtime/rmdetr_hg_s.yml",
+  "weights_file": "weights/rmdetr_hg_s.pth",
+  "input_shape": [
+    3,
+    640,
+    640
+  ],
+  "onnx_path": "artifacts/rmdetr_hg_s.onnx",
+  "engine_path": "artifacts/rmdetr_hg_s.engine",
+  "pytorch_fp32": {
+    "mean_time_ms": 13.476442825049162,
+    "std_time_ms": 0.01839617531196936,
+    "median_time_ms": 13.47561739385128,
+    "min_time_ms": 13.44185322523117,
+    "max_time_ms": 13.538526371121407,
+    "fps": 74.20355749525112
+  },
+  "tensorrt_fp16": {
+    "mean_time_ms": 2.7751636877655983,
+    "std_time_ms": 0.02136109103014787,
+    "median_time_ms": 2.7778223156929016,
+    "min_time_ms": 2.7198977768421173,
+    "max_time_ms": 2.8180181980133057,
+    "fps": 360.3391051881132
+  },
+  "speedup": 4.856089348696983
+}
