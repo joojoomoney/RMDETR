@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use RM-DETR in your research, please cite this work."
+title: "RM-DETR: Real-Time Mask Detection Transformer using Decoupled Semantic Reasoning and Spatial Refinement"
+authors:
+  - family-names: Oh
+    given-names: Joo-Hee
+    affiliation: Gachon University
+  - family-names: Choi
+    given-names: Chan-Young
+    affiliation: Gachon University
+  - family-names: Lee
+    given-names: Sang-Woong
+    affiliation: Gachon University
+repository-code: "https://github.com/joojoomoney/RMDETR"
+type: software
